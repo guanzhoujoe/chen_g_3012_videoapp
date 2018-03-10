@@ -1,0 +1,48 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: url(../images/background.jpg)  center fixed no-repeat;
+  text-align: center;
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+img{
+  width: 720px;
+}
+
+p{
+  font-size: 20px;
+}
+
+h3{
+  font-size: 48px;
+}
+
+
+.bar {
+  margin-top: 30px;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: red;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.bar:hover {background-color: pink}
+
+.bar:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
